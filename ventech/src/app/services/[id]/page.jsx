@@ -1,10 +1,11 @@
 import React from 'react';
 
-const page = () => {
+const page = ({params}) => {
+    const id = params.id;
     return (
-        <div>
-            <h1>
-                Services
+        <div className="min-h-screen bg-gray-50">
+            <h1 className='text-4xl font-bold py-10 bg-amber-600'>
+                Services : {id}
             </h1>
         </div>
     );
