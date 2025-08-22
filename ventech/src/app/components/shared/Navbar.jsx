@@ -1,7 +1,12 @@
+"use client"
 import Link from 'next/link';
-import React from 'react';
+import { usePathname } from 'next/navigation';
+import React, { use } from 'react';
 
 const Navbar = () => {
+
+  const pathname = usePathname();
+if(!pathname.includes("dashboard")){
     return (
         <nav className=" top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200 shadow-lg">
             <div className="max-w-6xl mx-auto px-4">
@@ -43,9 +48,18 @@ const Navbar = () => {
                         <li>
                             <Link 
                                 href="/services" 
+
+                                className="px-4 py-2 text-gray-700 hover:text-blue-600 rounded-full hover:bg-blue-50 transition-all duration-300"
+                                >
+                                Services
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                                href="/dashboard" 
                                 className="px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-full transition-all duration-300 shadow-lg hover:shadow-blue-500/25"
                             >
-                                Services
+                                Dashboard
                             </Link>
                         </li>
                     </ul>
@@ -53,6 +67,8 @@ const Navbar = () => {
             </div>
         </nav>
     );
+}
+
 };
 
 export default Navbar;
