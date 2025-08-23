@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///E:/WebDevs/Next.js-Basic/ventech/src/app/%28dashboard%29/dashboard/page.jsx"],"sourcesContent":["import React from 'react';\r\n\r\nconst dashboard = () => {\r\n    const role  = 'admin';\r\n\r\n    if(role === 'admin'){\r\n        return useRout\r\n    }\r\n    return (\r\n        <div>\r\n            Dashboard\r\n        </div>\r\n    );\r\n};\r\n\r\nexport default dashboard;"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,YAAY;IACd,MAAM,OAAQ;IAEd,wCAAoB;QAChB,OAAO;IACX;;;AAMJ;uCAEe","debugId":null}}]
+}

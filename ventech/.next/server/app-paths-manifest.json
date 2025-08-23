@@ -1,0 +1,15 @@
+{
+  "/(authPages)/login/page": "app/(authPages)/login/page.js",
+  "/(dashboard)/admin-dashboard/page": "app/(dashboard)/admin-dashboard/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(dashboard)/user-dashboard/page": "app/(dashboard)/user-dashboard/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/admin-dashboard/page": "app/admin-dashboard/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/services/[id]/page": "app/services/[id]/page.js",
+  "/services/page": "app/services/page.js",
+  "/user-dashboard/page": "app/user-dashboard/page.js"
+}
